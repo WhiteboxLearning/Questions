@@ -1,0 +1,245 @@
+1. What are the advantages of React?
+2. Difference between ReactJS and AngularJS?
+3. What are the limitations of ReactJS?
+4. What is virtual DOM? Explain its working.
+5. What is JSX? Why browser docent understand JSX and how do you overcome it?
+6. Difference between virtual DOM and real DOM?
+7. What do you understand by the statement “In React everything is a component”?
+8. What is the purpose of render() in ReactJS?
+9. How do you nest components in ReactJS?
+10. What are props and state?
+11. Difference between props and state?
+12. How do you update state in React component?
+13. What is the purpose of using arrow functions in ReactJS?
+14. What is the difference between stateless and stateful components?
+15. Explain React component lifecycle?
+16. What is an event in ReactJS?
+17. How do you create an event in React?
+18. What are synthetic events in ReactJS?
+19. What are refs in ReactJS?
+20. Some use cases to use refs in ReactJS?
+21. How do you modularize code in ReactJS?
+22. What are controlled and uncontrolled components in ReactJS? Use case for when to use and what?
+23. What are higher order components? What are its advantages?
+24. What is a Pure Component?
+25. What is the significance of keys in ReactJS?
+26. What are the major problems with MVC framework?
+27. Explain how Flux works?
+28. Difference between Flux and Redux?
+29. What is Redux.Explain Redux flow?
+30. What are the 3 principles that Redux follows?
+31. What are the components of Redux?
+32. How actions are defined in Redux?
+33. Explain the role of reducer?
+34. What is the significance of store in Redux?
+35. What are the advantages of Redux?
+36. What is React Router?
+37. Why is Switch used in React Router V4?
+38. Why do we need Router in React?
+39. Advantages of React Router?
+40. How is React Router different from conventional routing?
+41. How do you conditionally render a component in ReactJS?
+42. How do you do performance optimization in ReactJS?
+43. How do you do validations in ReactJS?
+44. How do you pass default values for props in ReactJS?
+45. What is context in ReactJS?
+46. What is code splitting in ReactJS?
+47. What happens when you call setState?
+48. In which lifecycle do you make AJAX request and Why?
+49. What does shouldComponentUpdate do and Why is it important and Why is it used?
+50. What is the second argument that can optionally passed to setState and What is its purpose?
+51. Compare and contrast setState() and forceUpdate().What is the significance of each, and when would you use one or the other?
+52. How might React handle or restrict to certain types, or require certain props to exist?
+53. What is the need for using Redux for state management? Why can’t you use ReactJS only for managing state?
+54. What is the current stable version of ReactJS?
+55. Can you pass data from child component to parent component in ReactJS.Justify your answer?
+56. How do you pass data from parent component to child component in ReactJS?
+57. Explain DOM diffing?
+58. What was the project structure you followed in ReactJS application?
+59. Write code snippet for container and presentation component?
+60. Implement toggle functionality in ReactJS?
+61. Implement autocomplete in ReactJS?
+62. Create two drop downs date and time using the below provided json data. When date dropdown is selected, time dropdown should be loaded accordingly.
+ 
+    var dateTime = [
+        {
+            ‘date’ : ’27-July’,
+            time: [’12’, ”2”, ”3”]
+        },
+        {
+            ‘date’ : ’26-July’,
+            time: [“11”,”10”,”9”]
+ 
+        },
+        {
+            ‘date’ : ’25-July’,
+            time: [“09”,”21”,”19”]
+        }
+    ]
+63. What is the purpose of using immutable states?
+64. How do you create immutable states in Redux?
+65. Write ReactJS code to satisfy the following condition.
+    Create Parent class and do Ajax call.if Ajax call returns data then render parent else don’t render parent component.
+66. Why do you pass props as parameter to constructor function in ReactJS? How will constructor get props?
+67. Why do you initialize state inside constructor.Why not inside componentWillMount lifecycle method?
+68. How do you make AJAX/API/Async calls in ReactJS?
+69. How to use nested events in ReactJS?
+70. What is auto binding in ReactJS?
+71. React components are declarative or imperative?Justify your answer.
+72. How do you prevent a component from rendering and re-rendering?
+73. What is the purpose of super(props) in ReactJS?
+74. Name some of the Redux middlewares you used?
+75. What is Redux Thunk used for?
+76. What is Pure function?
+77. Do you prefer one way binding or 2 way binding and Why?
+78. How to use Forms in ReactJS? Give an example of using Forms in ReactJS by developing a User Registration Form?
+79. Which feature can we use to cause a component to render only when its ID changes?
+80. How did you test React and Redux application?
+81. Suppose two components are trying to access store.So do they get same copy of data?
+82. How to create breadcrumb component in React or Redux? Does React or Redux provide anything to implement breadcrumb? 
+83. How is setState() available inside ReactJS component?
+84. Write small code that will render a JSX expression?
+85. If a JSX expression takes more than one line, what you should do?
+86. A JSX expression must have exactly how many outermost elements or Can you return more than one element from a component in ReactJS?
+87. How will you update a components state?
+88. How can you set state initially in ReactJS?
+89. When dealing with events in ReactJS how do you grab the value?
+90. Describe the difference between imperative code and declarative code?
+91. Create an <input> element that allows to change <Title /> component as we type through “two-way binding”? What is the general thought process?
+92. Once you have store setup, how do you make sure your app knows about the store?
+93. Create the above element without using JSX in ReactJS.
+    <div className=“ui items”>
+        Hello, friend! I am a basic React component.
+    </div> 
+94. How do you connect component to Redux store and what is that component called?
+95. How do you prevent the default behavior in an event callback in ReactJS? 
+96. How do you embed inline expressions in JSX?
+97. What is the typical pattern for rendering a list of components from an array of data?
+98. What is reconciliation in ReactJS?
+99. How do you access nested component inside HOC?
+100. What is the difference between element and component in ReactJS?
+101. What is the difference between createElement and cloneElement
+102. How do you write inline style in ReactJS?
+103. What are typical middleware choices for handling asynchronous calls in Redux?
+104. What is mapStateToProps and mapDispatchToProps?
+105. How do you debug your React code?
+106. What is the concept of “single source of truth” in Redux?
+107. How is state changed in Redux?
+108. How different is React’s ES6 syntax compared to ES5?
+109. What are the different ways to create React components?
+110. What are the benefits of using stateless functional components?
+111. How do you connect React to Redux?
+112. What are the 3 ways to handle mapDispatchToProps? Which one you prefer and Why?
+113. Mention some of the ways to handle async actions in Redux.Which one you prefer and Why?
+114. Explain the working of Redux-Thunk, Redux-Promise and Redux-Saga?
+115. Compare Redux Thunk and Redux Saga?
+116. What happens behind the scenes when JSX code is trampled to javascript? Explain with code snippets.
+117. How do you use children property in ReactJS? Explain with example.
+118. How do you add method references between components? Give an example code.
+119. What is the difference between HashRouter and BrowserRouter in React-Router?
+120. What are the similarities between Flux and Redux?
+121. What are the features of ReactJS?
+122. Explain ReactJS component Lifecycle 
+    1. When triggered by parent component
+    2. When setState is used or update triggered by internal changes
+123. Create Todo List with Redux?
+124. How do you use multiple reducers in Redux application?
+125. How do you add Redux Middlewares in the application?
+126. Why do you use subscribe() in Redux?
+127. What does replaceReducer() do in Redux?
+128. Explain the role of compose() in Redux?
+129. What is middleware? Explain it.
+130. What are the methods called when component is created or while inserting it to DOM?
+131. What are the methods called when state or props of the component is changed?
+132. What is the difference between setState(), forceUpdate() and findDOMNode() in ReactJS?
+133. How to set focus in ReactJS?
+134. What are the components in Flux architecture?
+135. How do you create ReactJS and Redux project from scratch? Or If you are given laptop and project requirement, how do you start.Explain steps?
+136. Create a mock Netflix like page with editable rows of titles using ReactJS and Redux 
+    You are given the following JSON object which will serve as mock back­end data: 
+    {
+        'mylist' : [
+            {
+                'title': 'Futurama',
+                'id': 1,
+                'img': 'http://cdn1.nflximg.net/webp/7621/3787621.webp'
+            },
+            {
+                'title': 'The Interview',
+                'id': 2,
+                'img': 'http://cdn1.nflximg.net/webp/1381/11971381.webp'
+            },
+            {
+                'title': 'Gilmore Girls',
+                'id': 3,
+                'img': 'http://cdn1.nflximg.net/webp/7451/11317451.webp'
+            }
+        ],
+        'recommendations' : [
+            {
+                'title': 'Family Guy',
+                'id': 4,
+                'img': 'http://cdn5.nflximg.net/webp/5815/2515815.webp'
+            },
+            {
+                'title': 'The Croods',
+                'id': 5,
+                'img': 'http://cdn3.nflximg.net/webp/2353/3862353.webp'
+            },
+            {
+                'title': 'Friends',
+                'id': 6,
+                'img': 'http://cdn0.nflximg.net/webp/3200/9163200.webp'
+            }
+        ]
+    }
+
+The top row will be the ‘My List’ row and will display the titles included in ‘mylist’ array. 
+The second row will be the recommendation row which will display the titles included in ‘recommendations’ array.
+Hovering over an image in the ‘My List’ row should create a “Remove” button displayed below the image. 
+Clicking on the button should remove the title from the “My List” row.
+Hovering over an image in the recommendations row should create an “Add” button displayed below the image. 
+Clicking on the button should add the title to the “My List” row.
+The list of titles in the “My List” row should be displayed at the bottom of the page.
+
+137. Create a simple shopping cart with product name as ‘chartName’ from response of API, and add to cart button using React, after adding to cart show the product name, price, quantity and total price.Use relevant fields from API response.
+    Use Bitcoin Price API:
+    https://api.coindesk.com/v1/bpi/currentprice.json
+138. Re-create the below page using create-react-app and react-redux.
+    https://grow.vungle.com/register
+ 
+Please include:
+1. Basic form functionality
+2. using redux to store field information
+3. validation of at least an email and password
+4. Upon selecting ‘Register’, fake the functionality of a HTTP request, using a Promise
+5. Indicate to the user that their request is being processed
+6. Provide an error state if their request failed - provide instructions on how to view
+7. Show a small ‘Success’ message if their request succeeded 
+Assets aren’t important. Using default fonts and including placeholder images is fine.
+
+139. App you are going to be building
+        You can see the target app running at
+        https://anatesan.github.io/an-coursera-angularjs/module4_solution/#!/
+        You need to demonstrate the Categories Page working
+    1. Get data for this by calling the REST end point - 
+        https://davids-restaurant.herokuapp.com/categories.json
+    2. Click on any link - go get the detailed menu for that category.REST endpoint for this is 
+        https://davids-restaurant.herokuapp.com/menu_items.json?category=L
+    
+    Extra Credit
+    Show routing between the Categories & Detailed sections
+
+140. How do you get access to setState() inside a ReactJS component?
+141. Create a Shopping Cart MERN application.
+142. Given an array like [1000, 10000, 100000], create buttons like below using ReactJS
+	<button  class='quantity-1000'>1000</button>
+	<button  class='quantity-10000'>10000</button>
+	<button  class='quantity-100000'>All</button>
+
+143. Create a component using React and JSX.Your component should be simple label.
+144. In question 143, make the Label dynamic and implement it using Redux along with React.Also add validation to it.
+145. Write code snippet to show how to update the state without mutating it?
+146. How do you pass JWT token to server in the api call in ReactJS?
+147. How do you implement GPS tracker application (Ex: google maps for tracking vehicle) using ReactJS and Redux?Explain the process flow.
+148. What is shallow compare in ReactJS? How does it help? Justify your answer.
