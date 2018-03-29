@@ -1,1 +1,337 @@
+1. Tell me something about JavaScript. Or What are the features of JavaScript? Or Why do you like JavaScript? - notes and tutorials point
+2. Is Javascript compiled or interpreted language.Justify your answer.
+3. What is Javascript called loosely typed and dynamically typed language?
+4. What are the advantages and disadvantages of using JavaScript?
+5. What are the different data types in JavaScript? Which are immutable? Which are primitive types?
+6. Tell me about truthiness of variable in JavaScript.
+7. What is break and continue?
+8. What is the difference between classical inheritance and prototypal inheritance?
+9. What are the pros and cons of functional programming vs object oriented programming?
+10. Which one is better classical inheritance or prototypal inheritance? Which one you prefer and Why?
+11. What are two-way data binding and one-way data flow, and how are they different?
+12. What is asynchronous programming, and Why is it important in Javascript?
+13. What is the output of the following code? Justify your answer.
+        for (var i = 0; i < 3; i++) {
+            setTimeout(function() { alert(i); }, 1000 + i);
+    }
+13. How would you use a closure to create a private counter?
+14. What will the code below output to the console and why?
+    (function(){
+        var a = b = 3;
+    })();
 
+    console.log("a defined? " + (typeof a !== 'undefined'));
+    console.log("b defined? " + (typeof b !== 'undefined'));
+15. What will the code below output to the console and why?
+    var myObject = {
+            foo: "bar",
+            func: function() {
+                    var self = this;
+                    console.log("outer func:  this.foo = " + this.foo);
+                    console.log("outer func:  self.foo = " + self.foo);
+                    (function() {
+                        console.log("inner func:  this.foo = " + this.foo);
+                        console.log("inner func:  self.foo = " + self.foo);
+                    }());
+            }
+    };
+    myObject.func();
+16. What is the significance of, and reason for, wrapping the entire content of a JavaScript source file in a function block?
+17. What is the significance, and what are the benefits, of including 'use strict' at the beginning of a JavaScript source file?
+18. Consider the two functions below. Will they both return the same thing? Why or why not?
+    function foo1()
+    {
+        return {
+                bar: "hello"
+         };
+    }
+
+    function foo2()
+    {
+        return
+        {
+                bar: "hello"
+        };
+    }
+19. What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
+20. What will the code below output? Explain your answer.
+    console.log(0.1 + 0.2);
+    console.log(0.1 + 0.2 == 0.3);
+21. Discuss possible ways to write a function isInteger(x) that determines if x is an integer.
+22. In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
+    (function() {
+            console.log(1); 
+            setTimeout(function(){console.log(2)}, 1000); 
+            setTimeout(function(){console.log(3)}, 0); 
+        console.log(4);
+    })();
+23. Write a simple function (less than 160 characters) that returns a boolean indicating whether or not a string is a palindrome.
+24. Write a sum method which will work properly when invoked using either syntax below.
+    console.log(sum(2,3));   // Outputs 5
+    console.log(sum(2)(3));  // Outputs 5
+25. Consider the following code snippet:
+    for (var i = 0; i < 5; i++) {
+        var btn = document.createElement('button');
+        btn.appendChild(document.createTextNode('Button ' + i));
+        btn.addEventListener('click', function(){ console.log(i); });
+        document.body.appendChild(btn);
+    }
+    (a) What gets logged to the console when the user clicks on “Button 4” and why?
+    (b) Provide one or more alternate implementations that will work as expected.
+26. Assuming d is an “empty” object in scope, say:
+        var d = {};
+    what is accomplished using the following code?
+        [ 'zebra', 'horse' ].forEach(function(k) {
+            d[k] = undefined;
+        });
+27. What will the code below output to the console and why?
+    var arr1 = "john".split('');
+    var arr2 = arr1.reverse();
+    var arr3 = "jones".split('');
+    arr2.push(arr3);
+    console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
+    console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
+28. What will the code below output to the console and why ?
+    console.log(1 +  "2" + "2");
+    console.log(1 +  +"2" + "2");
+    console.log(1 +  -"1" + "2");
+    console.log(+"1" +  "1" + "2");
+    console.log( "A" - "B" + "2");
+    console.log( "A" - "B" + 2);
+29. The following recursive code will cause a stack overflow if the array list is too large. How can you fix this and still retain the recursive pattern?
+    var list = readHugeList();
+
+    var nextListItem = function() {
+            var item = list.pop();
+
+            if (item) {
+                    // process the list item...
+                    nextListItem();
+         }
+    };
+30. What is a “closure” in JavaScript? Provide an example.
+31. What will be the output of the following code:
+    for (var i = 0; i < 5; i++) {
+        setTimeout(function() { console.log(i); }, i * 1000 );
+    }
+    Explain your answer. How could the use of closures help here?
+32. What would the following lines of code output to the console?
+    console.log("0 || 1 = "+(0 || 1));
+    console.log("1 || 2 = "+(1 || 2));
+    console.log("0 && 1 = "+(0 && 1));
+    console.log("1 && 2 = "+(1 && 2));
+    Explain your answer.
+33. What will be the output when the following code is executed? Explain.
+    console.log(false == '0')
+    console.log(false === '0')
+34. What is the output out of the following code? Explain your answer.
+    var a={},
+        b={key:'b'},
+        c={key:'c'};
+
+    a[b]=123;
+    a[c]=456;
+
+    console.log(a[b]);
+35. What will the following code output to the console:
+        console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+    Explain your answer.
+36. Consider the code snippet below. What will the console output be and why?
+    (function(x) {
+            return (function(y) {
+                    console.log(x);
+            })(2)
+    })(1);
+37. What will the following code output to the console and Why?
+    var hero = {
+            _name: 'John Doe',
+            getSecretIdentity: function (){
+                    return this._name;
+            }
+    };
+
+    var stoleSecretIdentity = hero.getSecretIdentity;
+
+    console.log(stoleSecretIdentity());
+    console.log(hero.getSecretIdentity());
+    What is the issue with this code and how can it be fixed.
+38. Create a function that, given a DOM Element on the page, will visit the element itself and all of its descendents (not just its immediate children). For each element visited, the function should pass that element to a provided callback function.
+    The arguments to the function should be:
+    1. a DOM element
+    2. a callback function (that takes a DOM element as its argument)39. What is the output of the following code?
+    var length = 10;
+    function fn() {
+        console.log(this.length);
+    }
+
+    var obj = {
+        length: 5,
+        method: function(fn) {
+                fn();
+                arguments[0]();
+        }
+    };
+
+    obj.method(fn, 1);
+40. Consider the following code. What will the output be, and why?
+    (function () {
+            try {
+                    throw new Error();
+         } catch (x) {
+                    var x = 1, y = 2;
+                    console.log(x);
+            }
+            console.log(x);
+            console.log(y);
+    })();
+41. What will be the output of this code?
+    var x = 21;
+    var girl = function () {
+            console.log(x);
+            var x = 20;
+    };
+    girl ();
+42. How do you clone an object?
+43. What will this code print?
+    for (let i = 0; i < 5; i++) {
+        setTimeout(function() { console.log(i); }, i * 1000 );
+    }
+44. What do the following lines output, and why?
+    console.log(1 < 2 < 3);
+    console.log(3 > 2 > 1);
+45. How do you add an element at the beginning of an array? How do you add one at the end?
+46. Imagine you have this code:
+        var a = [1, 2, 3];
+    a) Will this result in a crash?
+        a[10] = 99;
+    b) What will this output?
+        console.log(a[6]);
+47. What is the value of typeof undefined == typeof NULL?
+48. What would following code return?
+    console.log(typeof typeof 1);
+49. What will the following code output and why?
+    var b = 1;
+        function outer(){
+            var b = 2
+                function inner(){
+                        b++;
+                        var b = 3;
+                        console.log(b)
+                }
+                inner();
+        }
+    outer();
+50. What is the difference between undefined and not defined in JavaScript?
+51. What is the drawback of creating true private methods in JavaScript?
+52. How to empty an array in JavaScript?
+53. How do you check if an object is array or object?
+54. What is undefined * 1 in JavaScript?
+55. What is hoisting in JavaScript?
+56. What is the instanceof operator in JavaScript?
+57. What is the difference between null and undefined?
+58. What is the difference between == and ===?
+59. How do you compare two objects in JavaScript?
+60. Is JavaScript pass by value or pass by reference?
+61. Why are objects stored on heap and not on stack?
+62. What is an array? What are the different ways of creating array in JavaScript?
+63. How do you find the length of an array?
+64. What are multi-dimensional arrays?
+65. What is an associative array? Does JavaScript support associative arrays?
+66. How do you sort numbers in JavaScript?
+67. What is a function in JavaScript? What is its purpose?
+68. What is the difference between function and method?
+69. What is an anonymous function?
+70. Which one is preferred - named function or anonymous function? Why and When?
+71. What are the different ways to define a function?
+72. What is the argument object?
+73. What is the difference between objects and arrays?
+74. What is the difference between JSON and XML?
+75. What are the different ways to set properties for an object?
+76. How do you add restrictions to object properties?
+77. Explain the concept of scope.
+78. What is an IIFE?
+79. How do you avoid variables sneaking into global namespace?
+80. What is value type and reference type?
+81. What are timers in JavaScript? What are its drawbacks?
+82. What is an object?
+83. What is string? Explain some string built-in functions.
+84. Explain some built-in array functions.
+85. What happens when you don’t explicitly declare a variable in JavaScript?
+86. What is HTML DOM and how is it related to JavaScript?
+87. What are the different ways to call a function? Or what are different bindings in JavaScript? or How do you bind 'this' to a different context?
+88. What is the difference between call() and apply()?
+89. What is ‘this’ in JavaScript?
+90. Why ‘self’ is needed instead of ‘this’ in JavaScript? or Why do you use var self = this?
+91. How do you create closure in JavaScript?
+92. How do you create multiple instances of an object?
+93. What happens when you use ‘new’ to create objects?
+94. What is prototype in JavaScript?
+95. How to create prototype in JavaScript?
+96. How to achieve inheritance in JavaScript?
+97. What is callback?
+98. What is event loop?
+99. How to write comments in JavaScript?
+100. How do you handle exception in JavaScript?
+101. What is the difference between insatanceof and typeof?
+102. Difference between framework and library?
+103. How do you create an object in JavaScript?
+104. How can you read properties of an object in JavaScript?
+105. How do you create an array in JavaScript?
+106. How to read elements of an array?
+107. JavaScript functions are called as first class citizens.Justify your answer.
+108. How typeof operator works?
+109. What typeof returns for null and undefined value?
+110. How to empty an array in JavaScript?
+111. What is the difference between function declarationa nd function expression?
+112. What is the difference between function, method and constructor calls in JavaScript?
+113. How to check whether a key exist in a JavaScript object or not?
+114. Describe object-based inheritance in JavaScript?
+115. Describe type-based inheritance in JavaScript?
+116. What is the typical use case for anonymous function in JavaScript?
+117. What is non-enumerable property in JavaScript and how can you create one?
+118. What is the difference between Java and JavaScript?
+119. What is the use of isNaN function?
+120. What are global variables? How are these variable declared and what are the problems associated with using them?
+121. What is the difference between ViewState and SessionState?
+122. Explain how can you submit a form using JavaScript?
+123. What are all the looping structures in JavaScript?
+124. What would be the result of 3+2+”7″?
+125. What is the function of delete operator?
+126. Mention what is the disadvantage of using innerHTML in JavaScript?
+127. What are the different types of errors in JavaScript?
+128. What is the use of Push method in JavaScript?
+129. What is unshift method in JavaScript?
+130. Explain window.onload and onDocumentReady?
+131. Explain the role of deferred scripts in JavaScript?
+132. What is typeof []?
+133. What is typeof arguments?
+134. What is 2+true?
+135. What is '6'+9?
+136. What is the value of 4+3+2+"1"?
+137. What is the value of "1"+2+4?
+138. What is the value of -'34'+10?
+139. What is the value of +'dude'?
+140. If you have var y = 1, x = y = typeof x; What is the value of x?
+141. for var a = (2, 3, 5); what is the value of a?
+142. for var a = (1, 5 - 1) * 2 what is the value of a?
+143. What is the value of !'bang'?
+144. What is the value of parseFloat('12.3.4')?
+145. What is the value of Math.max([2,3,4,5]);
+146. 3 instanceof Number?
+147. null == undefined?
+148. What is the value of !!function(){};
+149. What is the value of typeof bar?
+150. What is the value of typeof null?
+151. If var a = 2, b =3 what would be value of a && b?
+152. What would be consoled var foo = 'outside'; function logIt(){console.log(foo); var foo = 'inside';} logIt();
+153. 42..toString()?
+154. 4.2..toString?
+155. 42 . toString()?
+156. typeof(NaN)?
+157. 2 in [1,2]?
+158. When would you use var in your declaration and when you wouldn't?
+159. What does the attribute defer/async do when added to the script tag?
+160. What is the event loop? Can you draw a simple diagram to explain event loop?
+161. What is debounce and how could you implement debounce?
+162. What is throttling and how could you implement throttling?
+163. 

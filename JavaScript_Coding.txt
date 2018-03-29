@@ -1,0 +1,113 @@
+1. Write a mul function which will properly when invoked as below syntax.
+	mul(2)(3)(4); //output - 24
+	mul(4)(3)(4); //output - 48
+2. Verify a prime number?
+3. Find all prime factors of a number?
+4. Get nth Fibonacci number?
+5. Find the greatest common divisor of two numbers?
+6. Remove duplicate members from an array?
+7. merge two sorted array?
+8. Swap two numbers without using a temp variable?
+9. Reverse a string in JavaScript?
+10. How would you reverse words in a sentence?
+11. Reverse words in place?
+12. Find the first non repeating char in a string?
+13. Remove duplicate characters from a sting?
+14. Write a program to check whether given input is palindrome or not.
+	- ignore case sensitive values
+	- ignore whitespaces
+	- handle all boundary cases
+	- dont use any inbuilt function
+	- apply your logic on following inputs
+		LEVEL
+		leVel
+		LE VE L
+		L E L
+		null - FALSE
+		undefined - FALSE
+		L
+		LL
+15. Generate random between 5 to 7 by using defined function.
+16. Find missing number from unsorted array of integers.
+17. Get two numbers that equal to a given number?
+18. Find the largest sum of any two elements?
+19. Total number of zeros from 1 upto n?
+20. Check whether a given string is a substring of bigger string.
+21. Get permutations of a string	
+22. Write a program to get below output.
+	Input - let stringA = 'jan feb mar jan feb mar jan feb mar';
+	Output - let stringB = 'jan feb mar apr jan feb mar apr jan feb mar apr';
+23. Write a program to get below output.
+	input - [a, b, c, 1, 2, 3, d, e, f]
+	output - [abc, [1, 2, 3], def]
+24. print infinitely to the console:
+	 ping
+	 <=== delay random #ms ie. 100ms
+	 pong
+	 <=== delay random #ms ie. 200ms
+	 ping
+	 <=== delay random #ms ie. 300ms
+	 pong
+	 <=== delay random #ms ie. 100ms
+	 
+	 .
+	 .
+25. Write a function that:
+	- accepts a string
+	- returns true or false if the value passed in to the function is found in
+	an array defined inside the function: ['cat', 'dog', 'bear']
+26.	Write a program that returns the square of an integer or -1 if not an integer.
+27. Write a program to flatten an array, print numbers and remove the duplicates.
+	Input - var myArray = [1, 2, '3', 2, 5, ['x', '10'], 'hello'];
+	Output - 1, 2, 3, 5, 10
+28. given an array of names ['John Doe', 'Jose Kane', 'May Flower'],
+	write program to print first names, lastnames, coun of firstnames and lastnames and total count.
+29. Write program for factorial of n
+30. Write a program to flatten array
+	input - [1, 2, 3, [4, 5, 6], [10, 11, [17, 18]], 0]
+	output - [1, 2, 3, 4, 5, 6, 10, 11, 17, 18, 0]
+31. Write a program to find missing element in an array.
+	input - [3, 1, 1, 4]
+	output - 2
+32. Given an array of numbers, check for even or odd.
+	Input - [1, 2, 3, 4, 5]
+	Output - [false, true, false, true, false]
+33. Write a prgram to check for balanced paranthesis?
+34. Write a program to get below output.
+	obj1 = {
+		a: 1,
+		b: 2
+	}
+	obj2 = {
+		a: 2,
+		c: 3
+	}
+	output - obj { a: 1, b: 2, c: 3}
+35. Given a string, print the letters in the string by descending frequency.
+	charFreq('hello'); => 'lheo'
+	charFreq('heeello'); => 'elho'
+36. Write a JavaScript program
+	input - ['abc', 'abdc', 'cadb', 'cb', 'cab', 'bca', 'ef', 'fe'];
+	output - [
+				['abc', 'cab', 'bca'],
+				['abdc', 'cadb'],
+				['cb'],
+				['ef', 'fe']
+			 ]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
