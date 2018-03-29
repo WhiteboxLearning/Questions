@@ -14,7 +14,6 @@
         for (var i = 0; i < 3; i++) {
             setTimeout(function() { alert(i); }, 1000 + i);
     }
-13. How would you use a closure to create a private counter?
 14. What will the code below output to the console and why?
     (function(){
         var a = b = 3;
@@ -334,4 +333,4 @@
 160. What is the event loop? Can you draw a simple diagram to explain event loop?
 161. What is debounce and how could you implement debounce?
 162. What is throttling and how could you implement throttling?
-163. 
+163. How would you use a closure to create a private counter?
