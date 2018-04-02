@@ -1,0 +1,18 @@
+ReactNative Interview Questions:
+1.	What is the difference between React and React Native?
+2.	Is React Native a native Mobile App? 
+3.	Do we use the same code base for Android and IOS? 
+4.	What’s the Challenges with React Native?  
+5.	Advantages of React Native?  
+6.	React Native – Differences between Android and IOS?
+7.	Are all React components usable in React Native?  
+8.	Are there any disadvantages to using React Native for mobile development?  
+9.	What is the difference between using constructor vs getInitialState in React / React Native?  
+10.	I have an existing App written in Objective-C / Swift / Java. Can I still use React Native?
+11.	When should I start using Redux with React Native? When should I consider an alternative state container?
+12.	How do I handle navigation in React Native? When should I introduce all that complexity?
+13.	How do I call code or respond to events in my native application with React Native?
+14.	What are some of the down sides to using React Native instead of writing a native application?
+15.	What happens when my code is shipped to the App / Play store? Is there any JavaScript?
+16.	What are some of the most common commands that I need to keep in mind when developing with React Native?
+17.	Is it possible to use React Native with existing native apps?
