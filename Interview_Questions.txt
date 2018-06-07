@@ -1,0 +1,946 @@
+Intuit 
+———————
+1. Introduce yourself.
+2. What exactly you worked in the first project?
+3. Angular and react? Which is better?
+4. Explain virtual DOM.
+5. How do u communicate between parent and child or child and parent?
+6. What do u mean by immutable?
+7. Data types in javascript.Which are immutable in that?
+8. Javascript types are pass by value or pass by reference.
+9. Create Parent class and do Ajax call.if Ajax call returns data then render parent else don’t render parent component.
+10. How does import and export work?
+11. Why should we call super() inside constructor method?
+12. Why do you pass props as parameter to constructor function in ReactJS? How will constructor get props?
+13. Why do you initialize state inside constructor.Why not inside componentWillMount lifecycle method?
+14. What are promises?
+15. Examples of fetch api what you worked on.
+16. What are the advantages of using fetch vs plain xml http request?
+17. What is the return type of fetch api?
+18. How do you handle cross-origin request using fetch?
+
+
+
+Walmart 
+————————
+1. Explain JWT.
+2. Where will the secret key be stored?
+3. How long token is valid?
+4. What is Jenkins all about? How does it work?
+5. Can you tell me the Git commands you used.
+6. What is the difference between git fetch and git pull?
+7. What are the advantages of mongodb over other nosql databases?
+8. What are the advantages of mongodb over mysql?
+9. What is namespace in mongodb?
+10. What is collection? Explain with an example what are collections, databases, how are the records structured etc.
+11. How to write a query to find a person with name in mongodb?
+12. Have you ever done Sharding in mongodb.Explain.
+13. How did u connect api to mongodb?
+14. Have u been on production support anytime.How do you test ur app and how do you track the issue in production? How will you know the root cause of the error? How do you see the log?
+15. What is ng-app in AngularJS?
+16. Can we have more than one ng-app in the SPA?
+17. What is ng-init?
+18. What is ExpressJS all about.How did you create api in ExpressJS?
+
+
+
+persistence/intuit
+——————————————————
+1. Why is ReactJS preferred over AngularJS?
+2. What are stateful and stateless components in ReactJS?
+3. Explain Router in ReactJS.
+4. How to use nested events in ReactJS?
+5. What is flux?
+6. What is auto binding in ReactJS?
+7. What is web worker?
+8. Can we have multiple header tags in html.
+
+
+Google 
+———————
+- What kind of internal tools do you use in your project and how do you test your project?
+- How do you test your project? Talk about Unit test, integration testing. What software do you use? Describe a snippet codes or an example to talk unit test and integration test.
+- Talk about what declarative program is? What is the benefit of using it? What languages are using declarative programming?
+- Talk about 3 pillars of object oriented programming. How are the concepts used in AngularJS and explain it?
+- How long have you implemented AngularJs and testing?
+
+Coding
+- Write a directive according to his requirement. Explain the directive in detail.Another way to write the same directive. How do you test the directive. How do you do the integration test. What are the advantages of the unit test and integration test.
+- Give your javascript class to solve “this” bug. Why do you use this way.
+- Give the 2 way binding coding test.
+- Find your GitHub project to talk about the project according to his mind/understanding.
+
+
+Interview Questions
+——————————
+1. do you choose react?
+2. Difference between angular and react
+3. Why angular js team didn’t get that thought to create virtual dom
+4. How viritual dom works
+5. What is React.create class
+6. Where do you write events in react
+7. What do you use for bundling
+8. Purpose of filters in angular?
+9. What do you compare in react with angular directives?
+10. What have you used for responsive web designing?
+11. What are the difficulties with angular and with react?
+12. Why do think bootstrap is best for responsive can’t we use other frameworks ?
+13. What are the 3rd party libraries I used?
+14. What are the other frameworks that supports MVC
+15. Why do you think redux is better than flux
+16. Why do you think one way flow is better?
+17. Example if I have given you two websites to build what do you choose react or angular
+And why?
+18. Testing frameworks I used for angular and react
+
+
+Infosys/Apple 
+——————————————
+
+1. What is DOCTYPE in html
+2. What happens if we don’t give DOCTYPE?
+3. Write html to display username, password and submit button?
+4. Why did you use label tag and for attribute for label in above code?
+5. Do you know what a breadcrumb is.
+6.  <div>
+		<p>1</p>  ——> margin-bottom: 10px
+		<p>2</p>  ——> margin-top: 20px
+		<p>3</p>
+	</div>
+	What is the space between first and second p tag
+	Ans - 20px it will merge
+	Becoz vertical margins are merged
+	Vertical margins collapse largest one is honored
+7. 	<div>
+		<p>1</p>  ——> padding-bottom: 10px
+		<p>2</p>  ——> padding-top: 20px
+		<p>3</p>
+	</div>
+	What is the output?
+	30px
+	They will not be merged
+	As they are inside box
+	Only between boxes
+8. 	<div class=“parent”>
+		<p class=“first”>1
+			<p>4</p>
+		</p>  
+		<p>2</p> 
+		<p>3</p>
+	</div>
+	Write css to select all <p>. - div p
+	Select immediate child. - div > p
+	Select <p> that contains 2 and 3 - div>p:not(:first-child)
+	Select <p> 2 and not 3 - div>p:nth-child(2n)
+
+
+9. Default value given by useragent stylesheet for float property. - left
+10. Default value for position - related
+11. Default value for display - block or inline, Block for div
+12. What is currying in javascript?
+13. You have Animal and Cat function.How to you make Cat as child to Anilmal?
+14. function abc(){
+		var a = 3;
+		console.log(this.a);
+	}
+	a = 2;
+	console.log(this.a);
+	abc();
+	console.log(this.a);
+15. for(var i=0;i<10; i++){
+		setTimeout(function(){
+			console.log(i);
+		}, 10);
+	}
+16. var a={},
+    b={key: 'b'},
+    c={key: 'c'};
+
+	a[b]=123;
+	a[c]=456;
+	console.log(a[b]);
+
+	
+Nvxl 
+——--
+Claudionor
+Tell me about Yourself 
+Do u have any questions for me?
+
+- Gustavo
+He gave brief about himself and project-
+Tell me about yourself?
+As you mention you worked with restapis what the are methods u worked on your api?
+How will do Route  to user api ?
+We have the url and u can get all the user list with the api, (assume user api as I mentioned that users registers for my project) so in that case if I add some new functionality to existing api then will the api change??
+What are the differences you notice between react and angular?
+How can u make your application responsive??
+What is difference between responsive layout and fluid lay out?
+What the things you feel like good in html5 and css3?
+What is the build tools u used??
+What is difference u feel between Webpack and grunt?
+Do u do the Webpack configuration or do u have others to set up and u work on it??( I explained all the configuration file fields and the usage- try to explain that Lalitha)
+How much is your team how you collaborate your code with other developers and which tool do u use ? )—talked about team , git and Gerrit and cloud 
+
+- Pravi
+She gave brief about herself 
+Tell me about your self.
+How will u get the requirement ?
+Does in your career do u have any issues with ui designer or architect??
+How will u convince him when ur design is not up to the design he gave?
+Do u have any questions for me 
+
+- Hari
+Talked about the project and how many were there and what they’re expecting from us .
+Talked about login page and asked how to make it in the center if the device is bigger than desktops.
+How will u convince him to make sure the answer I gave is correct?
+And how will u make sure that the design given by architect is same as the design u made?
+
+
+Apple 
+——————
+Questions based on autocomplete coding assessment.
+1.create a login form,why input boxes appear side by side,why r using<br> to display in next line,is it right way to do that?
+2.create two boxes one with green and red
+3.now red should appear top on green?
+4.what are positioning properties?
+5.write js code  for Facebook button Hw single button changes to both like and dislike..
+6.what are arrow function 
+7.Es6 new features 
+8.why we need block scope?
+9.About local and global scopes
+10.why we should not use global scope?
+11.what are Iffe functions?why we need it?
+12.why react?
+13.Virtual Dom?
+14.why we need state?
+15.about binding events in react,how arrow functions work with the bindings.Hw  we did it in Es5..
+16.did u work on node?
+17.what task runner did u use?
+
+
+
+GE f2f 
+———————
+1. How to add another list element in UL using JavaScript
+2. Cross browser issues with css
+3. ==,=== difference
+4. “20”+20 what is the out put on console in JavaScript
+5. Is js case sensitive what if I log Var Tom=2; console.log(tom);
+6. Are both same or different
+7. Js code to find missing number from an array of unsorted numbers 
+8. Make the list of items display side by side with 10px difference
+9. What do you use for responsiveness
+10. Name 3 attributes for position property
+11. Nodejs: get contact list data from database and from that contact list get only names using Id’s as an array.Using an example design a component
+12. What is the difference between $resource and $http
+13. What did you use mostly in your app and why
+14. What is a promise
+15. How do you make async calls in js
+
+
+Epikso
+———----
+1. Explain css media queries.
+2. Explain inheritance ein javascript.
+3. What is bootstrap?
+4. Explain key features of AngularJS.
+5. What is Angular expression and how do you differentiate between Angular and  JavaScript expressions?
+6. What are the characteristics of $scope?
+7. How to implement routing in AngularJS?
+8. Can we have nested controllers in AngularJS?
+9. What are the features of ReactJS?
+10. What are the limitations of ReactJS?
+11. What do you understand by virtual DOM?
+12. What is the difference between real and virtual DOM?
+13. How is ReactJS different from AngularJS?
+14. What is the purpose of render() in ReactJS?
+15. What is state in ReactJS and how it is used?
+16. How is state different from props in ReactJS?
+17. Write a code to create an event in ReactJS?
+
+
+Persistent/Cisco
+————————--------
+1. Brief about professional experience and projects you worked on.
+2. How do you optimize you application in frontend?
+3. What did you use to do minification of files?
+4. Have you used grunt or gulp?
+5. You have a image sprite and in future if a new image is to be added, then how to you create image sprite or how do you include the new image in an image sprite?
+6. What are the optimization techniques you use for javascript code?
+7. What are the different cross browser compatibility issues you faced and how did you overcome it?
+8. Did you face any issues with bootstrap.What are those and how did you overcome it?
+9. Explain the different context of this keyword in javascript.
+10. What does “this” refer to in a global context?
+11. What does “this” refer to inside object?
+12. What are closures?
+13. How do you access a method inside a class in javascript? - instantiate the class
+14. How to access a method inside a class without creating object for class in javascript?
+15. Can you name some of the built in array functions in javascript?
+16. What does pop() do in javascript?
+17. How do you override the default behavior of pop() in javascript?
+18. How do you center align div in css?
+19. What is the difference between service and factory in AngularJS?
+20. Can a factory have dependencies I.e. can it depend on other services etc for example.
+21. Which scenario you use service or factory in AngularJS?
+
+
+
+Harman/Roche
+————————
+1. What is pure function? How it is good to use? What are its advantages?
+2. Why should we use immutable objects, because it will only occupy more memory, how is it useful?
+3. How do we create immutable object in javascript?
+4. What are the new features in ES7?
+5. What is Ecmascript?
+6. Why do we need babel?
+7. What are different ways to share data between controllers in AngularJS?
+8. In which scenario we use broadcast? Top-down or bottom up?
+9. What is the difference between ng-show and ng-if?
+10. Did u create any custom directives in AngularJS? Which purpose you created?
+11. How many type of directives we can create in AngularJS?
+12. Which type of directive is good to use among the four types?
+13. How can you manually trigger the digest cycle?
+14. Are services and factory singleton object in AngularJS?
+15. How do we create singleton object in javascript? - using closure
+16. Explain filter, map and reduce methods.
+17. What are the advantages of React over AngularJS?
+18. How is virtual DOM faster from Original DOM?
+19. Why should we use redux? Is there any alternative way?
+
+
+
+Insys vendor screening
+———————————
+1. Write a sample code for render and render to string in NodeJS?
+2. Write a sample code for async module in NodeJS?
+3. Write a code for async.parallel and async.series in NodeJS?
+4. Scenario - there are 2 threads running I.e 2 end points, first end point runs in 3 seconds and second one runs in 1 second.Both are started at the same time and both are inside the while loop.So how many seconds it will take to complete both.
+5. What is an event loop in NodeJS?
+
+
+
+Gspann/Macy’s
+————————
+1. Can you talk about recent technical challenges you faced and how did you go about solving it.
+2. What happens when I give google.com or load any page in the browser?
+3. What does the browser do when it sees link tag with css or script tag? How does it render the page?
+4. By looking at network tab, how can you identify whether the resource is being loaded from cache or from server? 
+5. Is there any difference in the http codes, if the resource is loaded from cache or server? - no its 200 only
+6. How inheritance works in JavaScript and how is it different from other languages like Java or anything?
+7. What is closure in JavaScript and How and Why closure is used?
+8. How .apply() is used in JavaScript?
+9. Can you give syntax example to use apply() ?
+10. Can you talk about variable scoping in JavaScript and is it possible to have block level scoping in JavaScript?
+11. If I create an object with const, can I change the attributes of that object or not?
+12. Can you talk about some of the array methods in JavaScript like map, reduce and filter etc?
+13. What do you understand by accessibility of web page? How do you write accessible code?
+14. What are good html practices for accessibility while creating forms ?
+15. How to write labels to link to the input fields for accessibility?
+16. What are pseudo elements in CSS?
+17. In a html age there are multiple paragraphs, in that how do you apply style only for second paragraph element and how do you apply style for second and subsequent paragraphs?
+18. How to optimize page for printing and what do you do to optimize? Or How do you write styles that will be applied only while printing page? 
+19. What does box-sizing do?
+20. If there is div with width of 50px and padding of 10px.
+    1. What is the total width if box-sizing is border-box?
+    2. What will be the total width if box-sizing property is not specified?
+    3. What will be the total width if box-sizing is content box?
+    
+    
+Impetus/Amex
+———————
+1. Explain JWT.
+2. When you are doing authentication, you need manage some session in React as well, how did you manage that with concurrent users? - session storage
+3. What happens if the user is idle for long time? How will you close the session for that user?
+4. How did you resolve cross origin issue?
+5. Can you compare Angular with React and which is better to use?
+6. How state management works in redux?
+7. Suppose two components are trying to access store.So do they get same copy of data?
+8. Can you tell the structure of service API? - explain ExpressJS
+9. How to create breadcrumb component in React or Redux? Does React or Redux provide anything ti implement breadcrumb? - indexLink and LinkWhat is the difference between SASS and LESS?
+10. What are the advantages or disadvantages of using NodeJS over Java or any other language?
+11. How did you create async calls in ReactJS?
+
+
+
+Gspann
+————
+1. Tell me anything about JavaScript you like?
+2. Can you tell loads methods what you used?
+3. Can you tell some of the modules used in NodeJS?
+4. What is the difference between call and apply in JavaScript?
+5. Did you face any problems with “this” keyword? What is that and how did you overcome?
+6. What kind of work did you do in NodeJS?
+7. How did you deploy NodeJS? Did you use Nginx?
+8. Have you ever came across memory leaks or anything in the application? What did you do?
+9. Tell me about closures in JavaScript?
+10. Tell me what you did in Html and CSS in your projects?
+11. What was the use case for using socket.io in your project?
+12. Explain how socket.io works?
+13. What was your team size?
+14. What did you use for testing the application? Explain.
+15. How is Jest different from Jasmine?
+16. What are the challenges you faced in NodeJS?
+17. What is cluster module?
+18. What is an async module in NodeJS and how did you use it?
+19. Did you do automation testing? How does NightwatchJS works?
+20. You know React and Angular both, What do you like on both the side?
+21. How Redux maintains state immutability?
+22. How did you use lodash in NodeJS?
+23. How do you improve performance of the application?
+24. What is Redis?
+25. How did you implement SPA in ReactJS?
+26. Did you work on the cloud side, AWS or Google Cloud or Microsoft Azure or anything?
+27. Tell what you know about jQuery?
+28. Tell me the use case for jQuery UI?
+29. How is React Native different from ReactJS?
+30. Tell me what you did in Bootstrap?
+31. Any challenges you faced while working with Bootstrap?
+
+
+
+Impetus
+————
+1. Use of Char in HTML
+2. Diff between canvas and svg 
+3. Webstorage
+4. Search engine optimization
+5. Semantic elements 
+6. Pseudo selectors in css
+7. Flex wrap in css
+8. Display : none and visibility: hidden
+9. Jsonp 
+10. Diff between let and var
+11. Pass by value and pass by reference 
+12. How can we achieve polymorphism in JavaScript 
+13. Method overriding 
+14. Cors 
+15. What is the use of isolated directives 
+16. D3.js random method
+17. Factory pattern
+18. Nodejs body- parser
+19. Flux pattern
+20. Stateless components 
+21. Higher order components 
+22. Webpack configuration
+
+
+
+WellsFargo
+——————
+1. Unit testing , code coverage, react component life cycle
+2. Event binding
+3. What is the first thing to keep in mind when you are working with redux?
+4. Redux actions stores and reducer functions
+5. JavaScript constructor function
+6. What is the use of prototypes in js
+7. ADA implementations
+8. How to add elements in the middle of an array
+9. HTML 5 semantic elements
+10. What have I used for responsiveness in CSS3
+11. Balanced paranthesis coding
+12. React router
+13. Html display property
+14. Diff between inline and inline block
+15. What can we use to align div in the center of the page
+16. When we r using redux
+17. Explain the flow of redux with react
+18. Which life cycle method you use fetch
+19. Explain inheritance in JavaScript 
+20. Explain map filter and reduce
+21. Explain bootstrap 
+22. CSS selectors
+23. Aria tag uses
+24. CSS display and position properties 
+25. How will you add an element at 6th position of an array which has 10 elements 
+26. (((()))) should always be in this order should return false for ((), )(, (()))
+27. What kind of testing you use?
+28. How code review is done
+
+
+Apple
+———
+1. If I give you url and page comes up blank, how do you debug it?
+2. If you don’t need no script information and if the page is still blank, how do you check the issue or how do you check for errors?
+3. Difference between inline and block level elements?
+4. How can I make inline element block?
+5. Difference between display block and inline-block?
+6. Difference between session storage and local storage?
+7. How do you access local storage?
+8. How do you access the complete data stored in local storage?
+9. What is the use of label tag?
+10. What is the use of aria tag?
+11. What do you understand by the term cascading in CSS?
+12. Can you explain the term css reset and Why it is needed?
+13. Can you tell the difference between child and descendant selector?
+14. Can you explain the term CSS specificity?
+15. Explain the term event delegation?
+16. Explain javascript hoisting?
+17. Difference between let and var?
+
+
+
+Apple 
+———
+1. position - absolute and relative
+2. display - inline and inline-block
+3. event delegation with example and sample code
+4. obj1 = {
+            a: 1,
+         b: 2
+    }
+    obj2 = {
+            a: 2,
+         c: 3
+    }
+    result - obj = { a: 1, b: 2, c: 3 }
+5. color picker implementation question - http://www.binpress.com/images/stores/store30934/captura-de-tela-2014-02-03-%C3%A0s-11.48.49-am.png
+
+
+
+Wipro
+———
+1. About project 
+2. Hw you get ur designs?
+3. What is responsive design?Hw u make it responsive
+4. What is bootstrap 
+5. About Angular directives
+6. What are advantages and disadvantages of Angular 
+7. What factors will u consider while designing (semantic elements, responsive, web accessibility)
+
+
+
+Wells Fargo
+——————
+1. What is functional programming?
+2. What can be considered as a pure function? Give an example.
+3. Can you tell difference between var and let.
+4. What is const?
+5. What is an higher order component? Example of how to write HOC and use it.
+6. What is a generator function?
+7. Can you talk about Web Accessibility.
+8. Tell me about one difficulty you faced about accessibility and how did you solve that.
+9. How do you achieve responsiveness?
+10. What is Bootstrap?
+11. How do you create grid system responsive?
+12. Difference between inline, block and inline-block.
+13. Explain SASS
+
+
+
+Wells Fargo
+——————
+1. How do yo get ur requirements?
+2. Write a constructor function ?
+3. Write a method on prototype 
+4. How do u call the method after 2seconds?
+5. write the constructor function in Es6 
+6. What is the important feature of arrow functions?
+7. Why do you think arrow functions provide auto binding?
+8. What are CSS positioning properties?
+9. Write CSS code to make a Div appear at bottom right corner?
+10. Responsive web design?
+11. Have u worked on web accessibility?
+12. Map filter and reduce?
+13. Difference between map and for of?
+14. How do you find max from array of elements?
+15. Which math function do you use?
+16. How do yo get ur requirements?
+17. Write a constructor function ?
+18. Write a method on prototype 
+19. How do u call the method after 2seconds?
+20. write the constructor function in Es6 
+21. What is the important feature of arrow functions?
+22. How do you think arrow functions provide auto binding?
+23. What are CSS positioning properties?
+24. Write CSS code to make a Div appear at bottom right corner?
+25. Responsive web design?
+26. Have u worked on web accessibility?
+27. Map filter and reduce?
+28. Difference between map and for of?
+29. How do you find max from array of elements?
+30. Which math function do you use?
+
+
+Apple
+———
+1. Advantages and Disadvantages of SPA.
+2. What are the challenges you faced in project.
+3. Given a string, print the letters in the string by descending frequency.
+    Example:
+    charFreq(‘hello’) => ‘lheo’
+    charFreq(‘heeello’) => ‘elho’
+
+
+
+Apple
+———
+1. Javascript program
+    input - [‘abc’, ‘abdc’, ‘cadb’, ‘cb’, ‘cab’, ‘bca’, ‘ef’, ‘fe’]
+    output - [
+            [‘abc’, ‘cab’, ‘bca’],
+            [‘abdc’, ‘cadb’],
+            [‘cb’],
+            [‘ef’, ‘fe’]
+        ];
+
+2. Implement autocomplete with ReactJS.
+
+
+
+TCS/Apple
+—————
+1. Difference between ReactJS and AngularJS?
+2. Why do you prefer lodash over vanilla javascript?
+3. What did you do in CI/CD?
+4. What is the purpose of doing unit testing?
+5. What did you use to test ReactJS?
+6. Do you have any experience with Web Accessibility. What will ARIA-role do?
+7. If you are given a project and you are responsible for UI, how would you choose the technologies for that project?
+8. What is IIFE? How do you test code written with IIFE?
+9. What is module pattern?
+10. What is the purpose of using arrow functions?
+11. Input - arr1 - [3,4,6,20,22,25], arr2 - [1,5,8,12,14,19]
+    Merge two sorted array into one
+12. Write the above program to take variable number of argument arrays?
+13. <ul>
+        <li class=“item”>foo</li>
+        <li class=“item”>bar</li>
+        <li class=“item”>foo1</li>
+        <li class=“bar_one”>bar1</li>
+    </ul>
+onclick of li, only the li with class item should display the content inside that li example, foo. If any other li with class item is clicked it should not display anything.Your solution should also work for dynamically added li’s.
+
+14. Write unit tests for this code.
+    returns the square of an integer or -1 if not integer.
+    function squared(num){
+        let ret;
+        if(Number.isInteger(num)){
+            ret = num * num;
+        }
+        else{
+            ret = -1;
+        }
+        return ret;
+    }
+
+
+
+Persistence
+——————
+1. What is the purpose of Arrow Function?
+2. What are Props and state in reactJS?
+3. How do you create React component?
+4. Explain React life Cycle Methods?
+5. What is Virtual DOM?
+6. What is Higher order component?
+7. What is Pure component?
+8. What are Controlled and Uncontrolled Component.Use case for when do you use what?
+9. Why did you use Redux and explain its flow?
+10. Explain React Router?
+11. Did you use Webpack and what all plugins you used in Webpack?
+
+
+Harman/Roche
+———————
+1. What are reducers.Explain?
+2. What redux middlewares you used?
+3. What is virtual DOM?
+4. Explain JWT.How did you pass token in the header in ReactJS.
+5. How did you communicate between controllers in AngularJS?
+6. What are the advantages of ReactJS?
+7. Difference between local storage session storage?
+8. What is Express.js
+9. Why did you use $apply and $digest.What is the difference between both?
+10. Where did you use $apply and $digest?
+
+
+Persistence
+——————
+1. What is ReactJS for? How does it help?
+2. How does React-Router works?
+3. How does Redux work? Explain flow.
+4. What is the purpose of using Redux?
+5. How do you do data validation in javascript or react or anything?
+6. How do you handle errors in data validation?
+7. How do you communicate with server from ReactJS application?
+8. What kind of services have you called?
+9. What is the difference between post and put?
+10. If you want to remove an item from the server what do you use?
+11. How did you do test the services api?
+12. Did you use any code coverage tool?
+13. Did you have any threshold for the test cases? Or What percentage of the code should be covered during test?
+14. Did you use any historical analysis tool?
+15. Did you work on any vulnerabilities issues?
+16. Can you give some examples of cross site scripting?
+17. How can you prevent cross site scripting?
+18. How do you make your application responsive?
+19. How do you add responsiveness for screen orientation?
+20. How do you make your website accessible?
+21. How do you improve the performance of your application?
+22. Can you explain your process for deployment in the project?
+
+
+Paypal
+————
+1.how did you move from angular to react
+2 daily responsibility in your team
+3 who gives you permition to change customers information(if customer changes last name or delivery addres).
+4 tell me structure of you project what do you contribute to it daily 
+5.do you do unit testing if yes describe me prosses how you set up unit test in your work project example
+6.you said you do 30% of back end what is your particular task in it
+7.how many customer update information daily
+ 8.question about media query  how to specify screen size for every device 
+9.find unique character in function,repeating character.
+
+
+Paypal
+———
+1. About project 
+2. How I got requirements 
+3. What kind of data getting from backend
+4. I couldn't remember lot of questions on project,what are wireframes?
+5. What is Redux?How we do state management?
+6. What are Single page applications?what is the advantage?
+7. Write a code to flatten an array and then find duplicates?
+	Arr=[a,b,[1,2],[[3,2,1]]
+8. What are closures 
+9. What is hoisting
+
+
+Epikso
+———
+1. Explain html5 local storage.
+2. What is javascript inheritance?
+3. What is bootstrap?
+4. What is the difference between cookies and local storage?
+5. How is XHTML different from HTML?
+6. How to implement routing in Angular?
+7. Explain Javascript namespace.
+8. Explain how to setup environment for ReactJS step by step?
+9. What is JSX and What are its advantages?
+10. What are components in ReactJS?
+11. What are state and props in ReactJS?
+12. How to validate props in ReactJS?
+13. How to use forms in ReactJS?
+14. How to use events in ReactJS?
+15. How to setup routing in ReactJS?
+16. Write code to make api call/AJAX call?
+
+
+
+Wipro
+———
+1. Explain agile environment.
+2. Talk about Git, Gerrit and how you work with it.
+3. What is callback?
+4. What are promises?
+5. Write code to display button with blue color and on hover change color to blue without using javascript?
+6. write a function that checks whether any permutation of a string is a plaindrome in javascript ?
+    racecar -- true
+    ccarear -- true
+    fastcar —— false
+    add — true
+    ADd — true
+
+
+
+Epikso/Wipro/Visa
+—————————
+1. What version of React did you work?
+2. How did you manage state?
+3. When an event happens in component I should dispatch an action.How can you do that?
+4. What does mapDispatchToProps function do?
+5. When you dispatch action how does Redux saga will access it?
+6. How will you make external api calls in React?
+7. Explain the Flux architecture.
+8. How does React work internally?
+9. Have you used React-Router.
+10. Can you say something about React-Router.How does it work or anything.
+11. Have you worked on progressive web apps?
+12. What steps you take for performance optimization? How do you debug and resolve it?
+13. What is async loading?
+14. In a React component I have a textbox, I want to focus the textbook on focus and for every key press I have get the text typed.How do I do that from a react component.How do you access textbook in React?
+15. What is ref? How do you use ref in the React code?
+16. Write Bubble Sort algorithm? What is the complexity of Bubble Sort algorithm? What can you do to optimize it?
+17. What features you used in ES6?
+18. What is arrow function? When did you use arrow functions?
+19. What are iterators and generators? Where you have used it and in what situation?
+20. Explain React component life cycle.
+
+
+Emphasis/Wells Fargo
+———————————
+1. What is css sprite?
+2. What is the advantage of using css sprites?
+3. If you have a web page, how do you provide multi resolution?
+4. If there are 3 divs and divs has no classname or id and if I should apply style to only one first div then how do you do it?
+5. If I have a divs or a paragraphs and if I want to apply styles only for divs and paragraphs before and after a particular div or paragraph, how to do it?
+6. There is a table and I have to highlight color for last but one row(n-1) in the table, how to do?
+7. How to apply styles only for sibling of an element?
+8. What is hoisting?
+9. Why declarations are moved to top in javascript hoisting? Or Why does compiler do hoisting of variables?
+10. What is a closure and where have you been used in your application?
+11. How is closure or encapsulation obtained?
+12. What is call, bind and apply?
+13. Where do you use bind method in your application?
+14. What are different life cycles of react?
+15. If you want to fire an Ajax request, in which life cycle do you write?
+16. Why do you do Ajax call in componentDIdMount method? What happens if I do in componentWillMount method?
+17. What will happen if I setState() in componentWillUpdate method?
+18. Can you explain me the Redux work flow.
+19. How will you pass store to a component initially?
+20. If I want to pass state as properties to component, how do you do that?
+21. mapStateToProps or mapDispatchToProps, how do you pass to a component?
+22. What is the purpose of using Redux?
+23. Why should we use Redux middleware or Why do we go for middleware?What middleware will do?
+
+
+
+Wipro
+———
+1. How did you create SPA in React? Explain.
+2. What are the features of React?
+3. What is the difference between AngularJS and ReactJS?
+4. Do you know what is Big-O notation?
+5. Mention some of the array functions in javascript?
+6. Write java or java script code for the following requirements:
+    1. Given a string, sort it in descenging order of occurences without using utils
+    2. Take any String, replace ‘B’ with a letter ‘A’ in the string without using utils
+
+
+Apple
+———
+1. What is prototype?
+2. What is the main difference between javascript object and an array?
+3. How do you debug javascript?
+4. How do you debug if javascript is minified?
+
+
+Petco 
+——————
+1. Why do we use JSONP?
+2. Did you use JSONP to make AJAX call or do you think it is similar to AJAX.
+3. What is the difference between async and defer attribute in script tag?
+4. Difference between attribute and properties.
+5. What is same-origin policy.Explain.
+6. How do you overcome same-origin policy? Or How do you make cross-domain requests?
+7. How do you build html and css.Do you get wireframes or how it happens?
+8. How do you optimize code for web or mobile experience?
+9. How do you do lazy loading? Explain.
+10. Did you use any tools to do optimization? - web pack, Grunt, Gulp
+11. Do you have any experience with front-end optimization?
+
+
+Petco 
+——————
+1. Explain difference between different html versions. - XHTML, HTML 4 and HTML5
+2. What do you do for cross browser comaptibility like for IE <9? - like modernizers, polyfills, babel etc
+3. How will you use public method in module pattern?
+4. What are some of the performance optimization techniques on front end you will do, so that the page loads in 2 to 2 and half sceonds.
+5. Local storage dosen’t have option to set expiration time, if u have to set for 24hrs, how do you do it? - using timestamp
+6. Questions on selectors like - >, nth-child, nth-of-type
+7. Did you use CSS grid layouts, Explain.
+8. What are mixins and what are the benefits of mixin in SASS?
+9. If u have to make 2 ajax calls, one after the other.What are the ways you think you can do.
+
+
+Infogain 
+—————————
+1. What is NodeJS and What are the main features of NodeJS?
+2. What do you mean by NodeJS is single threaded?
+3. What is callback in NodeJS?
+4. What is callback hell?
+5. What is the solution for callback hell?
+6. What are the different api functions in NodeJS? 
+7. How do we errors work in callback?
+8. What is NPM? Why is it used? Or What is its functionality? Or What are the features of NPM?
+9. What is NodeJS stream?
+10. What is the difference between NodeJS and ReactJS?
+11. What is JSX?
+12. What is the difference between real DOM and virtual DOM?
+13. Scenario: I have 4 columns in one row, I want all 4 columns to be displayed in one row in desktop and 1 column to be displayed in a row on mobile.What kind of design can you use for that?
+14. Why do we need Redux?
+15. Explain Redux flow.
+16. Explain React-Router.
+
+
+Autodesk f2f questions
+———————————
+1.CORS?
+2.DOM Manipulation.
+3.How will you convinnce a backend person to work for you.
+4.[][][[[]] JS program to match the pair.
+5.<h1>V1=a,v2=b<h1>....display v1 and v2 data dynamicaly
+6.React Comp lifecycle methods?what are static methods.
+7.How to pass data from parent to child?
+8.How react is different from angular?
+9.Have you worked on localization?
+10.How will you write composite component?
+11.What is RAMDA?why it is used?
+12.What is Functional programming(Pure,composite,currying)
+13.What was your team size?Offshore team size?
+14.Challenges technical and non technical?
+15.D3.js
+16.AWS
+
+
+WellsFargo 
+———————————
+1. How did you create reusable components in ReactJS? Explain.
+2. How long are you working on ReactJS?
+3. Explain data flow in Redux.
+4. How many stores you have used in Redux?
+5. How do you empty an array in javascript?
+6. Explain closure in javascript.
+7. In what scenarios you came across closure in your project? Tell some.
+8. Output of, 1 + “23”
+9. Output of, 1 + 2 + “3”
+10. There is a function.Inside function there is for loop and inside it there is setTimeout for 1second with console.log(i).What does it print?   — concept of closures inside loop
+11. Explain specificity in CSS.
+12. What is Router? What did you in ReactJS for routing?
+13. What is async and await?
+14. Async and await docent support all the browsers.So how did you handle such situations?
+
+
+Autodesk
+————-----
+1. Roman numerals: 1 = I, 5 = V, 10 = X, 50 = L, 100 = C, 500 = D, 1000 = M.Write a function that will take a number, I.e. 27 or 564 as a parameter and a string which is the Roman numeral equivalent of that number.
+2. What is Responsive Web Design and How do you implement it?
+3. What is cross site scripting?
+4. How did you implement cross site scripting in ReactJS?
+5. Have you used D3.js. How do you rate yourself on scale of 1 to 10?
+
+
+WellsFargo
+—————-----
+1. How to create object in JavaScript ?
+2. Event propagation and prevent defaults? Give examples.
+3. Discuss Array methods.
+4. Two obj have same keys and same name, compare them? True or false
+5. Delete particular element from array.
+6. What is semantic element in HTML5.Why we use it?
+7. When u are saying you are using ES6 features , what about Es5 features?
+8. jQuery selectors?
+
+
+Wipro
+——————
+1. How do you identify data type of object in javascript?
+2. What is javascript promise?
+3. How do you handle errors in promises?
+4. Explain component life cycle in ReactJS.
+5. In which life cycle you do api call and Why?
+6. What is JSX?
+7. What are the different transpilers you used?
+8. Can we see the behavior of virtual DOM in the browser? - not rendered on browser, but we can debug react code once its updated on real DOM
+9. Difference between stateful and stateless components.
+10. How did you call web services from ReactJS?
+11. What is global scope and local scope?
+12. What is deferred object in jQuery?
+13. What task runners did you use?
+14. You have used Grunt and Webpack. Which one you prefer and Why?
+15. What is javascript closure and When do we use javascript closure?
+16. What is the benefit of closure?
+
+
