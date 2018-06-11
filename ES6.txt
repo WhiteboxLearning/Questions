@@ -1,0 +1,77 @@
+Explain all questions with examples.
+1. What is ECMAScript 6 or ES6?
+2. What is the best way to create private properties in ES6?
+3. What is the ES6 Map feature?
+4. How would you sort an ES6 Map object?
+5. How would you filter an array of objects in ES6?
+6. What are promises? Why should we use Promises?
+7. List new features in ES6.
+8. What was the need for using ES6?
+9. Does browser support ES6 features? Justify your answer. If your answer is “NO” then what do you do to make browser understand ES6 features?
+10. What is block scoping?
+11. Explain constants in ES6 with example.
+12. What is the difference between var and let?
+13. What are template literals?
+14. What is rest and spread operator? What are its uses?
+15. Explain Destructuring assignment?
+16. How to create a class in Javascript?
+17. What is Babel?
+18. List steps to install Babel?
+19. What is Webpack?
+20. List benefits of using Webpack?
+21. Explain OOP and functional programming?
+22. What is functional programming?
+23. What is the difference between classical inheritance and prototypal inheritance?
+24. What are the pros and cons of functional programming vs object-oriented programming?
+25. When is classical inheritance an appropriate choice?
+26. When is prototypal inheritance an appropriate choice?
+27. What are two-way data binding and one-way data flow, and how are they different?
+28. What is asynchronous programming, and why is it important in JavaScript?
+29. Explain the `let` keyword, give an example of why it is fundamentally different than the `var` keyword.
+30. Suggest one simple way for removing duplicates from an array
+31. Explain ES6 `Symbol()`. Provide one use case and explain how can a `Symbol()` be coerced to `String`.
+32. Explain the Object related methods `getOwnPropertyNames()` and `getOwnPropertySymbols()`.
+33. Why arrow functions are different than "regular" JavaScript functions?
+34. How can we use the ES6 spread operator instead of `apply()`?
+35. Explain Async/Await, how it works and how it provides different feel and syntax than using Promise callbacks.
+36. Explain Destructuring assignment - What will be the values of the variables?
+	What will be the value of `a` and `b`?
+	const array = [5, 7, 20];
+	let [a, b] = array;
+37. Propose a newer way to determine if an array contains a certain element.
+38. What is the output of the below code?
+	let object = {
+		a: "1",
+		b: "2",
+		c: "3",
+		d: "4"
+	}
+	for (a of object) {
+		console.log(a);
+	}
+39. Determine the output of the code below. Explain your answer.
+	console.log(0.1 + 0.2);
+	console.log(0.4 + 0.1 == 0.5);
+40. How would you empty the array?
+41. Determine the output of the code below. Explain your answer.
+	var lorem = { ipsum : 1};
+	var output = (function(){
+		delete lorem.ipsum;
+		return lorem.ipsum;
+	  })();
+
+	console.log(output);
+42. What is Tail Calls? 
+43. What is Reflect API? 
+44. What is Variable?  
+45. What is Lexical this? 
+46. What is Default Parameter Values?  
+47. What is Extended Object Literals? 
+48. What is Iterator?
+49. What is Generator?
+50. What are Modules?
+51. What is Module Loaders? 
+52. What is Map, Set, WeakMap, WeakSet?
+53. What is Proxies?  
+54. What are Symbols?  
+55. 
