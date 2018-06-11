@@ -1,0 +1,96 @@
+1. What are different ways to share data between controllers in AngularJS?
+- Services - good to use
+- $rootscope - bad to use
+- $broadcast and $emit
+- Constants and values
+
+
+
+ 2. In which scenario we use broadcast? Top-down or bottom up?
+$broadcast is used to emit events and $on is used to listen to events
+It follows top down approach
+
+
+
+3. When to use broadcast or emit
+$rootScope.$emit only lets other $rootScope listeners catch it. This is good when you don't want every $scope to get it. Mostly a high level communication. Think of it as adults talking to each other in a room so the kids can't hear them.
+   
+$rootScope.$broadcast is a method that lets pretty much everything hear it. This would be the equivalent of parents yelling that dinner is ready so everyone in the house hears it.
+      
+$scope.$emit is when you want that $scope and all its parents and $rootScope to hear the event. This is a child whining to their parents at home (but not at a grocery store where other kids can hear).
+
+$scope.$broadcast is for the $scope itself and its children. This is a child whispering to its stuffed animals so their parents can't hear.
+
+
+
+4. What is the difference between ng-show and ng-if?
+ng-show and ng-if both are used to conditionally render the elements
+ng-show and ng-hide, shows or hides element by applying css classes like css display:block or display:none
+ng-if, actually removes the element from the DOM when the condition is false and only adds the element back once the condition turns true
+
+
+ 
+5. Did u create any custom directives in AngularJS? Which purpose you created?
+Yes I used directives
+Angular directive is a function that executes whenever the Angular compiler finds it in the DOM.  They are used to extend the power of the HTML by giving it new syntax
+Angular has built in and we can create custom directives too
+Example of built in directives are ng-model, ng-bind, ng-repeat etc
+
+I created directives to create header, footer, side menu, grid, autocomplete etc
+
+
+6. How many type of directives we can create in AngularJS?
+4 ways - classname, tag name, comment, attribute
+
+
+
+7. How can you manually trigger the digest cycle?
+Using $apply and $digest
+$apply - works from module level I.e from $rootscope
+$digest - works for particular scope I.e in controller level
+
+
+
+8.  Are services and factory singleton object in AngularJS?
+Yes
+Service - angular internally creates object for it using object.create()
+It is constructor pattern
+We add properties and methods to “this” like this.property and this.method()
+It can be injected into controller and can we can use properties and methods using that name like serv.property or server.method()
+
+Factory - we have to create object, add properties and methods to that object like obj.property and obj.method() and finally return that object
+It is like module pattern
+It can be injected into controller and can we can use properties and methods using that name like serv.property or server.method()
+
+Provider - it is used if we want to do any kind of configurations like setting url for api calls etc
+
+
+
+9. Why did you use $apply and $digest.
+They both are used to trigger digest cycle manually
+When we write code out of angular context, then angular will not watch for variables or run digest cycle.So in that case we need to manually trigger digest cycle using $apply or $digest
+
+
+
+10. Where did you use $apply and $digest?
+Used inside custom directives, when we do DOM manipulations
+
+
+
+11. What are watches in AngularJS?
+AngularJS is 2 way binding I.e
+When view changes, model should update 
+When model changes, view should update
+So to keep track of variable to when it changes and to update automatically angular uses watches
+Watches keep an eye on variable
+Watches limit - 2000
+
+
+
+12. Explain digest cycle.
+Talk about watches first (Question 11)
+
+During digest cycle, angular does dirty checking.
+It runs digest cycle for minimum of 2 times and max is 10 times.
+During dirty checking it will check what variables changed and update it accordingly
+If there are any event listeners it will run digest cycle to make sure no other variables are changed
