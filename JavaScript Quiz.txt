@@ -1,0 +1,184 @@
+Javascript Quiz 
+
+Basic constructs
+1. How many times is the string “Hello” printed?
+var x = 10;
+if ( (null) || (console.log("Hello")) || x > 5 ) {
+  console.log("Hello");
+}
+
+A: 1
+B: 2
+C: 0
+D: 3
+E: 5
+Answer:B
+
+2. What is the output of this code snippet?
+function makeMultiplier(multiplier) {
+  var myFunFunc = function (x) {
+    return multiplier * x;
+  };
+  
+  return myFunFunc;
+}
+
+var operation = makeMultiplier(10);
+console.log(operation(10));
+
+A: 0
+B: undefined
+C: 10
+D: 100
+
+Answer: D
+
+
+3.  What is the output of this code snippet?
+
+// funcObject - object instantiation & this tests
+
+let Circle = function (radius) {
+    this.radius = radius;
+
+    this.getArea = function() {
+        return Math.PI*Math.pow(this.radius, 2);
+    }
+}
+// Note: new in call
+let myCircleNew = new Circle(5);  // area - 78.5 for radius 5
+console.log("myCircleNew...  logs");
+console.log(myCircleNew.getArea());
+
+// Note:  no new in call
+let myCircleDirectCall = Circle(10); // area - 314.16 for radius 10
+console.log("myCircleDirectCall...  logs");
+console.log(myCircleDirectCall.getArea());
+
+A: Both calls work fine.   myCircleNew call returns 78.5, myCircleDirectCall returns 314.16
+B: myCircleNew call fails with error on new call;  myCircleDirectCall.getArea() returns 314.16
+C: myCircleNew.getArea() returns 78.5;  myCircleDirectCall.getArea() fails with error
+D: Both myCircleNew.getArea() and myCircleDirectCall.getArea() fail with errors
+Answer:  C
+
+4. What is the output of this code?
+
+var counter = 0;
+var myArray = ["Yaakov", 2, {handle: "yaakovchaikin"}];
+for (var i = 0; i < myArray.length; i++) {
+  counter++;
+}
+console.log(counter);
+
+A.	3
+B.	0
+C.	4
+D.	You will get an error
+Answer:  A
+
+
+5.  What is the output of this code snippet?
+
+// objLiteral and closures
+
+let myLiteralObj = {
+    age: 20,
+    setAge: (newAge) => {
+        this.age = newAge;
+    },
+    getAge: () => this.age,
+    getSeniorStatusThroDirectAccess:  function() {
+        if (this.age>55)           // Note direct attribute access
+            return "Senior";
+        else 
+            return("Not Senior")
+    },
+    getSeniorStatusThroGettor:  function() {
+        if (this.getAge()>55)      // Note access via Gettor
+            return "Senior";
+        else 
+            return("Not Senior")
+    },
+}
+myLiteralObj.setAge(57);
+console.log("DirectAccess: " + 
+        myLiteralObj.getSeniorStatusThroDirectAccess());
+console.log("Through gettor: " + 
+        myLiteralObj.getSeniorStatusThroGettor());
+
+A.	 Function errors out with “this” undefined
+B.	Output is “DirectAccess: Senior”  followed by “Through gettor: Senior”
+C.	Output is “DirectAccess: Not Senior”  followed by “Through gettor: Senior”
+D.	Output is “DirectAccess: Not Senior”  followed by “Through gettor: Not Senior”
+E.	Output is “DirectAccess: Senior”  followed by “Through gettor: Not Senior”
+
+Answer: C
+
+
+
+6. Immediately Invoked Function Execution:  Given this code
+
+1  (function(window) {
+2 
+3  var obj = {};
+4
+5  obj.dreamOn = function () {
+6   console.log("I want to see the global scope! Let me out!");
+7  };
+8
+9  window.doer = obj;
+10 
+11 });
+12
+13 doer.dreamOn();
+
+What (if anything) is missing from this code in order to get it to output the message of the "dreamOn" method?
+A.	Nothing is missing. It will output "I want to see the global scope! Let me out!"
+B.	Line 1 and Line 9 should use 'global' instead of 'window'.
+C.	The function definition in Line 5 is missing an argument. It should accept an argument by the name of 'window'
+D.	The attempted Immediately Invoked Function Execution (IIFE) is not being invoked and passed in the window object. It's missing '(window)' Line 11 right before the semicolon.
+Answer: D
+
+7. DOM manipulation: Given this HTML and the 2 code snippets
+<input id="name" type="text" value="Hi">
+
+Snippet 1
+console.log(document.getElementById("name").value + " Hello world!");
+
+Snippet 2
+console.log(document.querySelector("#name").value + " Hello world!");
+What will be the difference in the output between the 2 Javascript code snippets?
+A.	No difference
+B.	First one will not display the word 'Hi'
+C.	Second one will throw a Javascript error.
+D.	First one will throw a Javascript error.
+Answer: A
+
+
+8.  Events:  What will the code snippet below do?
+...
+<head>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log("Yey!");
+});
+</script>
+</head>
+<body>
+...
+<h1>Hello!</h1>
+</body>
+</html>
+
+A.	It will output Yey! when the web page is loaded, but before external resources like images are downloaded to the user's machine.
+B.	It will output Yey! when the user hits the Reload browser button.
+C.	It will never output Yey!
+D.	It will output Yey! concurrently as the browser displays the 'h1' tag.
+Answer: A
+
+
+
+
+
+
+
